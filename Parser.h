@@ -16,9 +16,9 @@ class Parser
         string filename;
         ifstream file;
         list <string> columns;
-        list <list<string>> rows;
-        list <list<string>> contents;
-        list <list<string>>:: iterator listIterator;
+        list <list<string> > rows;
+        list <list<string> > contents;
+        list <list<string> >:: iterator listIterator;
     public:
 //Parser constructor
         Parser (string file);
